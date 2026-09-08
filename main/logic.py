@@ -13,7 +13,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 SPOONACULAR_API_KEY = os.getenv("SPOONACULAR_API_KEY")
 
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
 
 
 class IdentifiedItem(BaseModel):
@@ -62,7 +62,7 @@ def analyze_fridge_process(image_path: str):
     Initial fridge analysis using GPT vision.
     Returns FridgeAnalysis or None on error.
     """
-    if not OPENAI_API_KEY:
+    if client is None:
         print("Błąd: Brak klucza OpenAI.")
         return None
     

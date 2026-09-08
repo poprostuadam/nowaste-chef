@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "nowaste-chef"
 version = "0.1.0"
-description = "Aplikacja NoWaste Chef"
-# Tu NIE MOŻE być linijki 'packages'
+description = "AI cooking assistant for turning fridge photos into personalized recipes"
+requires-python = ">=3.11"
 
 [tool.setuptools]
 packages = ["main"]
