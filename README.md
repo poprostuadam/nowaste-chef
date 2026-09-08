@@ -192,4 +192,4 @@ The GitHub Actions workflow runs tests and basic Flake8 checks for pushes and pu
 
 ## License
 
-No software license has been specified yet. Until a license is added, normal copyright rules apply.
+This project is available under the [MIT License](LICENSE).
