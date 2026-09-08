@@ -3,6 +3,7 @@
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Tests](https://github.com/poprostuadam/nowaste-chef/actions/workflows/nowaste-chef.yml/badge.svg)](https://github.com/poprostuadam/nowaste-chef/actions/workflows/nowaste-chef.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **NoWaste Chef** is a Polish-language cooking assistant that turns a photo of available food into practical recipe suggestions. It combines OpenAI vision and structured outputs with Spoonacular recipes, a dietary profile, an automatically generated shopping list, and a local meal journal.
 
